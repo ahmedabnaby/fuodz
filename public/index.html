@@ -24,9 +24,35 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Fuodz</title>
+    <script>
+      WebFontConfig = {
+          google: { families: ['Open+Sans:300,400,600,700,800', 'Poppins:200,300,400,500,600,700,800', 'Oswald:300,400,500,600,700,800'] }
+      };
+      (function (d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'assets/js/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+      })(document);
+  </script>
+
+  <!-- Plugins CSS File -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="assets/css/demo35.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/simple-line-icons/css/simple-line-icons.min.css">
   </head>
   <body>
+    <div class="loading-overlay">
+      <div class="bounce-loader">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+      </div>
+  </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +65,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+
   </body>
+      <!-- Plugins JS File -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/plugins.min.js"></script>
+      <script src="assets/js/nouislider.min.js"></script>
+      <script src="assets/js/jquery.plugin.min.js"></script>
+      <script src="assets/js/jquery.countdown.min.js"></script>
+  
+  
+      <!-- Main JS File -->
+      <script src="assets/js/main.min.js"></script>
 </html>
