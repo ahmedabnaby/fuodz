@@ -385,10 +385,10 @@ export default function Header()
             </ul>
           </div>
           <ul className="menu">
-            <li className="active"><a href="/">Home</a></li>
+            <li className="active"><a href="/"><img className="icon-heading" src="assets/images/icons/salon-men.png" role="..." alt="..."/>Salon For Men</a></li>
             <li>
-              <a href="/products">Products</a>
-              <div className="megamenu megamenu-fixed-width megamenu-3cols">
+              <a href="/products"> <img className="icon-heading" src="assets/images/icons/spa-men.png" role="..." alt="..."/>Spa For Men</a>
+              {/* <div className="megamenu megamenu-fixed-width megamenu-3cols">
                 <div className="row">
                   <div className="col-lg-6">
                     <a href="#" className="nolink">Categories</a>
@@ -417,12 +417,12 @@ export default function Header()
                     </div>
                   </div>
                 </div>
-              </div>{/* End .megamenu */}
+              </div> */}
             </li>
-            <li><a href="/about-us">About Us</a></li>
-            <li><a href="/whatsnew">What's New</a></li>
+            <li><a href="/about-us"><img className="icon-heading" src="assets/images/icons/covid.png" role="..." alt="..."/>Covid Test At..</a></li>
+            <li><a href="/whatsnew"><img className="icon-heading" src="assets/images/icons/salon-women.png" role="..." alt="..."/>Salon For Women</a></li>
 
-            <li><a href="/contact-us">Contact Us</a></li>
+            <li><a href="/contact-us"><img className="icon-heading" src="assets/images/icons/spa-women.png" role="..." alt="..."/>Spa For Women</a></li>
           </ul>
         </nav>
         <div className="info-boxes font2 align-items-center ml-auto">
