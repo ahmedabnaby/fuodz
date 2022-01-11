@@ -11,7 +11,7 @@ export default function Header()
           <i className="fas fa-bars" />
         </button>
         <a href="/" className="logo">
-          <img src="assets/images/logo-black.png" className="w-100" width={111} height={44} alt="Porto Logo" />
+          <img src="assets/images/webteklabs.png" className="w-100" width={111} height={44} alt="Porto Logo" />
         </a>
         <div className="header-icon header-search header-search-inline header-search-category d-lg-block d-none text-right mt-0">
           <a href="#" className="search-toggle" role="button"><i className="icon-magnifier" /></a>
@@ -21,10 +21,10 @@ export default function Header()
               <div className="select-custom">
                 <select id="cat" name="cat">
                   <option value>All Categories</option>
-                  <option value={4}>Fruits</option>
-                  <option value={12}>Vegetables</option>
-                  <option value={13}>Meat</option>
-                  <option value={66}>Fish and Seafood</option> 
+                  <option value={4}>Part Time Cleaning</option>
+                  <option value={12}>Salon for Men</option>
+                  <option value={13}>Spa for Men</option>
+                  <option value={66}>Covid Test at Home</option> 
                 </select>
               </div>{/* End .select-custom */}
               <button className="btn icon-magnifier p-0" title="search" type="submit" />
@@ -135,31 +135,31 @@ export default function Header()
               Departments</a>
             <ul className="menu menu-vertical">
               <li>
-                <a href="#"><i className="icon-category-garden" />Fruits And Vegetables</a>
+                <a href="#"><i className="icon-category-garden" />Category 1</a>
                 <span className="menu-btn" />
                 <div className="megamenu megamenu-fixed-width megamenu-one">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="row">
                         <div className="col-md-6 mb-1">
-                          <a href="#" className="nolink pl-0">Vegetables</a>
+                          <a href="#" className="nolink pl-0">Salon for Men</a>
                           <ul className="submenu">
-                            <li><a href="/products">Carrots</a>
+                            <li><a href="/products">Spa for Men</a>
                             </li>
-                            <li><a href="/products">Chill Pepper Diced - 200g</a></li>
-                            <li><a href="/products">Sweet Corn - 200g</a>
+                            <li><a href="/products">Covid Test at Home</a></li>
+                            <li><a href="/products">Deep Cleaning</a>
                             </li>
-                            <li><a href="/products">Ginger - 250g</a>
+                            <li><a href="/products">Repairs</a>
                             </li>
                           </ul>
                         </div>
                         <div className="col-md-6 mb-1">
-                          <a href="#" className="nolink pl-0">Fruits</a>
+                          <a href="#" className="nolink pl-0">Salon for Women</a>
                           <ul className="submenu">
-                            <li><a href="/products">Mangos</a></li>
-                            <li><a href="/products">Oranges</a></li>
-                            <li><a href="/products">Avocado</a></li>
-                            <li><a href="/products">Banana</a>
+                            <li><a href="/products">Salon for Women</a></li>
+                            <li><a href="/products">Spa for Women</a></li>
+                            <li><a href="/products">Hair Service for Women</a></li>
+                            <li><a href="/products">Nails and Lashes</a>
                             </li>
                           </ul>
                         </div>
@@ -168,29 +168,27 @@ export default function Header()
                     <div className="col-md-3 text-left">
                       <div className="menu-banner menu-banner-2 d-inline-block position-relative h-auto">
                         <figure className="text-right">
-                          <img src="assets/images/demoes/demo35/products/cats/cat-1.png" alt="Menu banner" className="product-promo d-inline-block" width={300} height={383} />
+                          <img src="assets/images/categories/cat1.jpeg" alt="Menu banner" className="product-promo d-inline-block" width={300} height={383} />
                         </figure>
-                        <i>OFF</i>
-                        <div className="banner-content text-left">
+                        {/* <div className="banner-content text-right">
                           <h4>
                             <span className="text-dark">UP TO</span><br />
                             <b className="text-dark">50%</b>
                           </h4>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="col-md-3 text-left">
                       <div className="menu-banner menu-banner-2 d-inline-block position-relative h-auto">
                         <figure className="text-right">
-                          <img src="assets/images/demoes/demo35/products/cats/cat-2.png" alt="Menu banner" className="product-promo d-inline-block" width={300} height={383} />
+                          <img src="assets/images/categories/cat2.jpeg" alt="Menu banner" className="product-promo d-inline-block" width={300} height={383} />
                         </figure>
-                        <i>OFF</i>
-                        <div className="banner-content text-left">
+                        {/* <div className="banner-content text-right">
                           <h4>
                             <span className="text-dark">UP TO</span><br />
                             <b className="text-dark">50%</b>
                           </h4>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -229,7 +227,7 @@ export default function Header()
                 </div>{/* End .megamenu */}
               </li>
               <li>
-                <a href="#"><i className="icon-category-saddle" />Meat</a>
+                <a href="#"><i className="icon-category-saddle" />Category 2</a>
                 <span className="menu-btn" />
                 <div className="megamenu megamenu-fixed-width megamenu-two">
                   <div className="row">
@@ -315,7 +313,7 @@ export default function Header()
                 </div>{/* End .megamenu */}
               </li>
               <li>
-                <a href="#"><i className="icon-category-gifts" />Fish And Seafood</a>
+                <a href="#"><i className="icon-category-gifts" />Category 3</a>
                 <span className="menu-btn" />
                 <div className="megamenu megamenu-fixed-width megamenu-three">
                   <div className="row">
